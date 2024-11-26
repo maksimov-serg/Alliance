@@ -243,7 +243,17 @@ body {
   html {
     font-size: 0.875rem;
   }
+
+  .header-image {
+    background-position: center;
+  }
 }
-.header-image {
-  background-position: center;
+@media (max-width: 1460px) {
+  html {
+    font-size: 13px;
+  }
+
+  .header-logo {
+    padding: 2rem;
+  }
 }
