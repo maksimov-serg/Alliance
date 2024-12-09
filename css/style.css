@@ -339,7 +339,7 @@ body {
     filter: brightness(0) invert(1);
   }
   .mobile-menu {
-    display: block;
+    display: none;
     position: fixed;
     top: 0;
     right: 0;
