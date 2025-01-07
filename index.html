@@ -173,7 +173,7 @@
         >
       </div>
       <!-- /.header-phone -->
-      <button class="navbar-button button">
+      <button class="navbar-button button" data-toggle="modal">
         <img class="button-icon" src="img/phone.svg" alt="icon: phone" />
         <span class="button-text">Получить консультацию</span>
       </button>
@@ -192,7 +192,7 @@
             будущего проекта напрямую зависит от анализа существующих паттернов
             поведения.
           </p>
-          <div class="button">Подробнее о компании</div>
+          <div class="button" data-toggle="modal">Подробнее о компании</div>
         </div>
         <!-- /.header-content -->
 
@@ -1049,6 +1049,88 @@
       </div>
       <!-- /.container -->
     </footer>
+    <div class="modal">
+      <div class="modal-dialog">
+        <h2 class="modal-title">Есть вопросы?</h2>
+        <a href="#" class="modal-close" data-toggle="modal">
+          <svg
+            width="18"
+            height="18"
+            class="close-icon"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.78033 2.25L2.25 2.78033L8.34885 8.87918L2.25011 14.9779L2.78044 15.5083L8.87918 9.40951L14.9779 15.5083L15.5083 14.9779L9.40951 8.87918L15.5084 2.78033L14.978 2.25L8.87918 8.34885L2.78033 2.25Z"
+              fill="#828A99"
+            />
+          </svg>
+        </a>
+        <p class="modal-text">
+          Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
+          ответит на все интересующие вопросы и поможем даже в самых сложных
+          случаях!
+        </p>
+        <form action="#" class="modal-form">
+          <div class="input-group-wrapper input-group-vertical">
+            <div class="input-group modal-input-group">
+              <input
+                id="modal-user-name"
+                type="text"
+                class="input modal-input"
+                placeholder=" "
+              />
+              <label
+                class="input-group-lable modal-input-lable"
+                for="modal-user-name"
+                >Имя</label
+              >
+            </div>
+            <!-- /.input-group -->
+            <div class="input-group modal-input-group">
+              <input
+                id="modal-user-phone"
+                type="tel"
+                class="input modal-input"
+                placeholder=" "
+              />
+              <label
+                class="input-group-lable modal-input-lable"
+                for="modal-user-phone"
+                >Номер телефона</label
+              >
+            </div>
+            <!-- /.input-group -->
+          </div>
+          <!-- /.input-group-wrapper -->
+          <div class="modal-form-footer">
+            <button type="submit" class="button modal-form-button">
+              Отправить заявку
+            </button>
+            <div class="notify">
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.9221 1.94626L6.41988 0.0703468C6.27918 0.0234489 6.13849 0 5.9978 0C5.83365 0 5.69296 0.0234489 5.55227 0.0703468L1.05007 1.94626C0.627986 2.13385 0.370047 2.53249 0.370047 2.97802C0.370047 7.64436 3.04323 10.8569 5.55227 11.9121C5.83365 12.0293 6.13849 12.0293 6.41988 11.9121C8.43649 11.0679 11.6255 8.18368 11.6255 2.97802C11.6255 2.53249 11.3442 2.13385 10.9221 1.94626ZM9.16157 4.72512L5.50537 8.14349C5.36467 8.30763 5.10673 8.30763 4.96604 8.14349L2.95613 6.37141C2.81544 6.23072 2.81544 5.99623 2.95613 5.85554L3.24087 5.5708C3.38156 5.43011 3.61605 5.43011 3.75675 5.5708L5.30254 6.91226L8.41607 3.97962C8.55677 3.83893 8.79126 3.83893 8.93195 3.97962L9.16157 4.20924C9.30227 4.34994 9.30227 4.58443 9.16157 4.72512Z"
+                  fill="#828A99"
+                />
+              </svg>
+
+              <p class="notify-text">
+                Обращаясь к нам вы получаете не только профессиональную работу,
+                но и абсолютную конфиденциальность информации!
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
