@@ -38,6 +38,8 @@ body {
 .navbar-light {
   background-color: #fff;
   color: #292d33;
+}
+.navbar-scroll {
   height: 4.5rem;
 }
 .phone-icon {
